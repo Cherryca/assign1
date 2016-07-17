@@ -21,7 +21,8 @@ void setup(){
  }
 
 void draw(){
-  image(bg1Img,0,0);
+  image(bg1Img,h%640,0);
+  image(bg2Img,h%640-640,0);
   h++;
   fill(255,0,0);
   rect(10,5,x,25);
