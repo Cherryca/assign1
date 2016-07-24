@@ -23,11 +23,11 @@ void setup(){
 
 void draw(){
   //background
-  h+=2;m+=2;
-  image(bg1Img,h,0);
-  image(bg2Img,m,0);
-  if(h==640){h=-640;}
-  if(m==640){m=-640;}
+  h+ = 2 ;m+ = 2 ;
+  image (bg1Img,h,0) ;
+  image (bg2Img,m,0) ;
+  if (h==640) {h = -640 ; }
+  if (m==640) {m = -640 ; }
   
   //hp
   fill (255,0,0) ;
