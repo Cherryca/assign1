@@ -26,7 +26,6 @@ void draw(){
   h++;
   fill(255,0,0);
   rect(10,5,x,25);
-  image(treasureImg,y,z);
   image(fighterImg,575,220);
   image(enemyImg,w%640,z);
   w++;
