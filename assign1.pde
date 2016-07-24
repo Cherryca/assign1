@@ -15,7 +15,7 @@ void setup(){
 
 void draw(){
   //background
-  h+=4;m+=4;
+  h+=2;m+=2;
   image(bg1Img,h,0);
   image(bg2Img,m,0);
   if(h>639){h=-640;}
